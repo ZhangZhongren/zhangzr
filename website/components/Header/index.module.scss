@@ -1,0 +1,54 @@
+.logo {
+  font-family: Splash-Regular;
+  color: #fff;
+  line-height: 70px;
+  padding: 0 40px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.menu {
+  text-align: center;
+  margin: 0 20px;
+  line-height: 80px;
+  color: #fff;
+  font-family: Splash-Regular;
+  font-style: normal;
+  font-size: 26px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  text-shadow: 4px 4px 30px #dbafaf;
+  &:hover {
+    text-shadow: 4px 4px 30px #ff0000;
+    color: #edadad;
+    opacity: .5;
+    &::after {
+      display: block;
+    }
+  }
+
+  @keyframes zoomInOut {
+    0%{
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  &::after{
+    display: none;
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 1.2px;
+    border-radius: 1px;
+    background-color: #edadad;
+    opacity: .9;
+    width: 4px;
+    animation: zoomInOut .15s forwards ease-in-out;
+  }
+}
