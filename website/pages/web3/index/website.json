@@ -1,0 +1,37 @@
+[
+  {
+    "title": "opensea",
+    "link": "https://opensea.io",
+    "icon": "https://opensea.io/static/images/favicon/180x180.png"
+  },
+  {
+    "title": "balancer",
+    "link": "https://balancer.fi",
+    "icon": "https://balancer.fi/favicon.svg"
+  },
+  {
+    "title": "uniswap",
+    "link": "hhttps://uniswap.org",
+    "icon": ""
+  },
+  {
+    "title": "Defi 知识库",
+    "link": "https://tokeninsight-support.gitbook.io/ti_defi/",
+    "icon": ""
+  },
+  {
+    "title": "infura",
+    "link": "https://infura.io/",
+    "icon": ""
+  },
+  {
+    "title": "etherscan",
+    "link": "https://etherscan.io/",
+    "icon": ""
+  },
+  {
+    "title": "Solidity",
+    "link": "https://docs.soliditylang.org/en/v0.8.15/",
+    "icon": ""
+  }
+]

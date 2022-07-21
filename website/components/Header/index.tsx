@@ -5,9 +5,9 @@ export default () => {
     <header className='flex justify-between'>
       <Link href="/"><div className={ style.logo }>zhangzr</div></Link>
       <div className='columns-3 mr-10'>
-        <Link href="/a" ><p className={ style.menu }>blog</p></Link>
+        <Link href="/web3/index" passHref target="_blank" ><p className={ style.menu }>web3</p></Link>
+        <Link href="https://zhangzhongren.github.io/" passHref target="_blank" ><p className={ style.menu }>blog</p></Link>
         <Link href="/tools/index" ><p className={ style.menu }>tools</p></Link>
-        <Link href="/g" ><p className={ style.menu }>myself</p></Link>
       </div>
     </header>
   )
