@@ -5,3 +5,14 @@
 .textarea {
   background-color: #ccc;
 }
+
+.leftmenu {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.content {
+  padding: 20px;
+  flex: 1;
+  min-height: 100vh;
+}

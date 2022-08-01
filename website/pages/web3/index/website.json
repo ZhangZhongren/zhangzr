@@ -11,7 +11,7 @@
   },
   {
     "title": "uniswap",
-    "link": "hhttps://uniswap.org",
+    "link": "https://uniswap.org",
     "icon": ""
   },
   {
@@ -32,6 +32,11 @@
   {
     "title": "Solidity",
     "link": "https://docs.soliditylang.org/en/v0.8.15/",
+    "icon": ""
+  },
+  {
+    "title": "infura",
+    "link": "https://infura.io",
     "icon": ""
   }
 ]
