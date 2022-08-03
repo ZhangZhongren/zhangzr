@@ -18,7 +18,7 @@ const Crypto = () => {
   return (
     <div className='columns-2 justify-between'>
       <div>
-        <TextArea style={{ backgroundColor: '#666', color: '#fff' }} id='crypto' rows={6} placeholder="please input key" maxLength={6} />
+        <TextArea id='crypto' rows={8} placeholder="please input key" />
         <Button type="primary" onClick={md5}>md5</Button>
         <Button type="default" onClick={sha1}>SHA1</Button>
         <Button type="primary" onClick={SHA256}>SHA256</Button>
@@ -26,7 +26,7 @@ const Crypto = () => {
         <Button type="primary" onClick={SHA3}>SHA3</Button>
       </div>
       <div>
-        <TextArea id='copyvalue' style={{ backgroundColor: '#666', color: '#fff' }} value={cryptoValue} readOnly rows={6} placeholder="output" maxLength={6} />
+        <TextArea id='copyvalue' style={{ color: '#fff' }} value={cryptoValue} readOnly rows={8} placeholder="output" />
         {/* <div className='flex justify-end'> */}
           <Button className='copy' data-clipboard-target="#copyvalue" type="primary" >copy</Button>
           <Button type="primary" onClick={ () => setCryptoValue('')}>clear</Button>
