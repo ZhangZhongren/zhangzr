@@ -29,10 +29,18 @@ const Tools = () => {
           <Button onClick={() => changeTmp('crypto') } type="link">crypto</Button>
           <Button onClick={() => changeTmp('color')} type="link">color transition</Button>
           <Button onClick={() => changeTmp('json')} type="link">json format</Button>
+          <Button onClick={() => changeTmp('sheet')} type="link">fortune sheet</Button>
         </div>
         <Title title='ocr' />
           <a href='/tools/ocr' target="_blank">
             <Tag color="green">ocr: tesseract.js</Tag>
+          </a>
+        <Title title='links' />
+          <a href='https://github.com/hellodigua/code996' target="_blank" rel="noreferrer">
+            <Tag color="green">code996</Tag>
+          </a>
+          <a href='https://wantwords.net/' target="_blank" rel="noreferrer">
+            <Tag color="pink">wantwords</Tag>
           </a>
 
       </div>

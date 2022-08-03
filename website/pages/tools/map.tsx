@@ -1,6 +1,7 @@
 import Crypto from './crypto'
 import Json from './json'
 import Color from './color'
+import Sheet from './fortune-sheet'
 interface emap {
   [key: string]: any | Element 
 }
@@ -8,5 +9,6 @@ interface emap {
 export default {
   'crypto': <Crypto />,
   'json': <Json />,
-  'color': <Color />
+  'color': <Color />,
+  'sheet': <Sheet />
 } as emap

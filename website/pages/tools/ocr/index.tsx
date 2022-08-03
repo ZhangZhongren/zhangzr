@@ -1,6 +1,9 @@
 import { useState, useRef } from 'react'
 import Tesseract, { createWorker } from 'tesseract.js';
 import Loading from '@components/Loading'
+import { Input } from 'antd'
+const { TextArea } = Input;
+
 // https://github.com/naptha/tesseract.js
 function Ocr() {
   const [value, setValue] = useState('')
@@ -35,13 +38,13 @@ function Ocr() {
   return <>
     <Loading loading={ loading } />
     <div className="flex flex-row">
-      <div className="basis-1/2" style={{ height: '100vh', border: '1px solid #ccc', borderRadius: '4px' }}>
+      <div className="basis-1/2" style={{ height: '100vh', border: '1px solid #666', borderRadius: '4px' }}>
         <button style={{ float: 'right', background: '#368', color: '#fff', width: '100px', height: '30px' }} onClick={ handleupload }>上传</button>
         <input type="file" ref={input} hidden onChange={getFile} />
         <img src={src} alt="" />
       </div>
-      <div className="basis-1/2" style={{ height: '100vh', border: '1px solid #ccc', borderRadius: '4px', padding: '20px', overflow: 'auto' }}>
-        <textarea style={ { width: '100%', height: '100%', outline: 'none' }} value={value}></textarea>
+      <div className="basis-1/2" style={{ height: '100vh', border: '1px solid #666', borderRadius: '4px', padding: '20px', overflow: 'auto' }}>
+        <TextArea style={ { width: '100%', height: '100%', outline: 'none' }} value={value}></TextArea>
       </div>
     </div>
   </>

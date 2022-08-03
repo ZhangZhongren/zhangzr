@@ -17,10 +17,10 @@ const Json = () => {
   return <>
     <div className='columns-2 justify-between'>
       <div>
-        <TextArea className={ style.textarea } onChange={changejsonstr} style={{ backgroundColor: '#666', color: '#fff' }} rows={6} placeholder="please input json string" />
+        <TextArea className={ style.textarea } onChange={changejsonstr} rows={6} placeholder="please input json string" />
       </div>
       <div>
-      <TextArea className={ style.textarea } style={{ backgroundColor: '#666', color: '#fff' }} value={value} readOnly rows={6} placeholder="answer" />
+      <TextArea className={ style.textarea } value={value} readOnly rows={6} placeholder="answer" />
       </div>
     </div>
   </>

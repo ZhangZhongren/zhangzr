@@ -34,7 +34,6 @@ const Crypto = () => {
       </div>
     </div>
   )
- 
 }
 
 export default Crypto
