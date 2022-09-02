@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bytemd/react": "^1.17.2",
     "@fortune-sheet/react": "^0.5.8",
     "@types/crypto-js": "^4.1.1",
     "animate.css": "^4.1.1",

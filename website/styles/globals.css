@@ -31,3 +31,6 @@ header {
   min-width: 800px;
   width: 70%;
 }
+.bytemd {
+  height: calc(100vh - 120px) !important;
+}
