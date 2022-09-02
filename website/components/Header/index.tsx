@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import style from './index.module.scss'
-export default () => {
+const Header = () => {
   return (
     <header className='flex justify-between'>
       <Link href="/"><div className={ style.logo }>zhangzr</div></Link>
@@ -12,3 +12,5 @@ export default () => {
     </header>
   )
 }
+
+export default Header

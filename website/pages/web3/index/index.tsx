@@ -26,7 +26,7 @@ const Web3: React.FC = () => {
         <div className={ style.block }>
           {
             wensitejson.map((item: Website, index: number) => (
-              <a key={ index } href={ item.link } target="_blank">
+              <a key={ index } href={ item.link } target="_blank" rel="noreferrer">
                 <Tag color={ colors[index % 9] }>{ item.title }</Tag>
               </a>
             ))

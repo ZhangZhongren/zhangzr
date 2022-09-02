@@ -7,7 +7,7 @@ import Title from '@components/Title'
 import ALink from '@components/ALink'
 import style from './index.module.scss'
 import { useState, useEffect } from 'react'
-import CMap from '../map'
+import CMap from '../../../components/tools/map'
 const Tools = () => {
   const router = useRouter()
   const [cname, setCname] = useState('')
