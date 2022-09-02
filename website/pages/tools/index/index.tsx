@@ -22,6 +22,8 @@ const Tools = () => {
   return <div className={ styles.bg}>
     <Head>
       <title>tools</title>
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+      <script src='https://unpkg.com/roughjs@latest/bundled/rough.js'></script>
     </Head>
     <Header />
     <div className="flex justify-between">
@@ -32,6 +34,7 @@ const Tools = () => {
           <Button onClick={() => changeTmp('json')} type="link">json format</Button>
           <Button onClick={() => changeTmp('sheet')} type="link">fortune sheet</Button>
           <Button onClick={() => changeTmp('Bytemd')} type="link">Bytemd</Button>
+          <Button onClick={() => changeTmp('Rough')} type="link">Rough</Button>
         </div>
         <Title title='ocr' />
           <a href='/tools/ocr' target="_blank">
@@ -44,6 +47,7 @@ const Tools = () => {
           <ALink url="https://visiky.github.io/resume/?mode=edit" desc="在线简历编辑" text="resume" />
           <ALink url="https://github.com/shipshapecode/shepherd" desc="用户引导" text="shepherd" />
           <ALink url="https://github.com/dicebear/dicebear" desc="自动生成头像" text="dicebear" />
+         
           
 
         <Title title='css' />

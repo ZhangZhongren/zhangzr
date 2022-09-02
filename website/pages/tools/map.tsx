@@ -3,6 +3,7 @@ import Json from './json'
 import Color from './color'
 import Sheet from './fortune-sheet'
 import Bytemd from './bytemd'
+import Rough from './rough'
 interface emap {
   [key: string]: any | Element 
 }
@@ -12,5 +13,6 @@ export default {
   'json': <Json />,
   'color': <Color />,
   'sheet': <Sheet />,
-  'Bytemd': <Bytemd />
+  'Bytemd': <Bytemd />,
+  'Rough': <Rough />
 } as emap
